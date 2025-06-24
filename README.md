@@ -1,6 +1,6 @@
-# 🅿️ Find Nearby Parking App — LLM Project Template
+# VibeTemplate — LLM Project Template
 
-This project serves as both a working minimal FastAPI app **and** a template for scalable LLM-assisted software development using tools like **Gemini** and **Claude**.
+This project serves as a template for scalable LLM-assisted software development using tools like **Gemini** and **Claude**.
 
 ---
 
@@ -33,6 +33,13 @@ Each markdown file serves as a **semantic boundary** for the LLMs, allowing you 
 - Assign Gemini planning tasks (update docs, generate FRDs)
 - Assign Claude coding tasks (implement feature per spec)
 
+
+### User and LLM tasks
+- User tasks are marked with [USER]
+- LLM tasks are unmarked or when ambigious marked with [LLM]
+
+This is handy when you want to add tasks such as set up dev ops, and it is a human task. There can be ambiguity in some instances, and in those instances add [LLM] before instructions to make it clear
+
 ---
 
 ## 🔁 Continuation of Context = Better Code
@@ -50,15 +57,15 @@ This makes:
 
 ## 🧪 How to Use This Template for a New Project
 
-Rename `README.md` to `README.example.md`, and run the following **Gemini prompt**:
+Rename `README.example` to `README.md`, and run the following **Gemini prompt**:
 
 ```
 You are Gemini. Read the instructions in `prompts/gemini_prompt.md`. Now, update the documentation to match the following new project:
 
-"Project: Create a platform for X (replace with your project description). Update `docs/`, `features/`, `modules/`, and `packages/` markdowns to reflect this new project. Do not update code yet—just planning, FRD, and documentation."
+"Project: Create a platform for X ([USER] replace with your project description). Update `docs/`, `features/`, `modules/`, and `packages/` markdowns to reflect this new project. Do not update code yet—just planning, FRD, and documentation."
 ```
 
-Once Gemini has restructured the plan and docs for your project, run Claude with:
+Once Gemini has restructured the plan and docs for your project, [USER] run Claude with:
 
 ```
 You are Claude. Read the instructions in `prompts/claude_prompt.md` and begin by implementing the first unchecked task in `docs/planning.md`.
