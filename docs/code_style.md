@@ -1,5 +1,7 @@
 # Code Style Guide
 
+- Task for the user are marked [USER]
+- Tasks for the LLM are unmarked or when ambigious marked [LLM]
 - Use snake_case for Python
 - REST API responses should be camelCase
 - Follow PEP8 conventions

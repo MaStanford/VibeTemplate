@@ -14,6 +14,10 @@ Allow users to find nearby parking spots by providing a latitude and longitude.
 - List of nearby parking spots
 
 ## Tasks
-- [ ] Implement endpoint logic
+- [x] Implement endpoint logic
 - [ ] Connect to database with sample spatial data
-- [ ] Write integration tests
+- [ ] Write integration tests- [ ] Write integration tests
+- [x] Create FastAPI app
+- [x] Add `/api/parking` endpoint
+- [x] Validate query parameters
+- [x] Return JSON response
