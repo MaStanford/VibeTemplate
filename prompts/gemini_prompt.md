@@ -9,18 +9,19 @@ You are acting as a project planner and documentation assistant. Your task is to
 ## Required Context (Markdown Files to Read):
 - `docs/frd.md`
 - `docs/planning.md`
+- `run-and-deploy.md`
 - `docs/stack.md`
 - `docs/code_style.md`
-- `features/feature-location-search.md`
-- `modules/parking.md`
-- `packages/api.md`
+- `features/features.md`
+- `modules/modules.md`
+- `packages/packages.md`
 
 ## Your Output:
 - Remove tasks marked complete from `docs/planning.md`
 - Update `docs/planning.md` with new tasks if needed
 - Create or update any relevant `features/`, `modules/`, or `packages/` markdown files
 - Ensure alignment with the FRD and Code Style
-- Add new markdown files to the "Required Context" list
+- Add new markdown files to the "Required Context" list and `_index.md` file.
 - Do not update or change any code or build files, only update, change, or create markdown files. 
 
 ## Next Step:

@@ -1,9 +1,10 @@
 # Task Planning
 
+- [LLM] Add new tasks from features and frd.md
+
 ## Current Tasks [LLM]
-- [ ] Implement location-based parking spot search API
-- [ ] Add geolocation logic in backend
-- [ ] Define `parking` module with location search logic
+- [ ] Implement location-based [APPLICATION] search API
+- [ ] Define `[APPLICATION]` module with location search logic
 - [ ] Create `feature-location-search.md` to track location search details
 
 ## Future Tasks [LLM]
