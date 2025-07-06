@@ -11,6 +11,7 @@ You are acting as a project planner and documentation assistant. Your task is to
 - `docs/planning.md`
 - `run-and-deploy.md`
 - `docs/stack.md`
+- `docs/architecture.md`
 - `docs/code_style.md`
 - `features/features.md`
 - `modules/modules.md`
