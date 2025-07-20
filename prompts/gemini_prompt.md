@@ -18,11 +18,12 @@ You are acting as a project planner and documentation assistant. Your task is to
 - `packages/packages.md`
 
 ## Your Output:
-- Remove tasks marked complete from `docs/planning.md`
+- Move tasks marked complete in `docs/planning.md` to complete section.
 - Update `docs/planning.md` with new tasks if needed
 - Create or update any relevant `features/`, `modules/`, or `packages/` markdown files
-- Ensure alignment with the FRD and Code Style
-- Add new markdown files to the "Required Context" list and `_index.md` file.
+- Update `architecture.md`, `stack.md`, and `code_style.md` if needed as part of planning new tasks.
+- Ensure alignment with the FRD, Code Style, Architecture, and Stack.
+- Add new markdown files to the `Required Context` list in `gemini_prompt.md` file and `_index.md` file.
 - Do not update or change any code or build files, only update, change, or create markdown files. 
 
 ## Next Step:

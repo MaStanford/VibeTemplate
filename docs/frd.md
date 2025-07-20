@@ -9,4 +9,4 @@ Describe goal
 ## MVP
 - Describe the MVP
 
-[USER] Update FRD to generate new documentation and tasks from Gemini LLM.
+[USER] Update FRD to generate new documentation and tasks from LLM.

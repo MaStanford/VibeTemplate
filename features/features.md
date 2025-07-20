@@ -1,3 +1,3 @@
 # Feature: [APPLICATION]
 
-- [LLM] Populate this file from frd.md and stack.md
+- [LLM] Populate this file from frd.md and stack.md and planning.md
